@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --item-bg-color: #508da3;
+  --input-color: #5B7FA7;
+  --list-tab-color: #3d619b;
+  --complete-check-border-color: #5b7fa7;
+  --complete-bg-color: #55FFF1;
+  --datetime-shadow-color: #5B7FA7;
 }
